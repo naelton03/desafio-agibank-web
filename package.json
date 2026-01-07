@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "pnpm": "^10.27.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.0.3",
+    "axe-core": "^4.11.0",
+    "cypress": "^15.8.2",
+    "cypress-axe": "^1.7.0",
+    "typescript": "^5.9.3"
+  }
+}
