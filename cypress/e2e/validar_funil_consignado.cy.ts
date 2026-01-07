@@ -57,8 +57,8 @@ describe('Jornada de Conversão Agi', () => {
   it('Deve exibir mensagem amigável ao não encontrar resultados', () => {
 
 
-    cy.pesquisarNoBlog('asasasasas');
+    cy.pesquisarNoBlog('*]/');
 
-    cy.get('.no-results.not-found').should('be.visible').should('contain', 'Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.');
+    cy.contains("Lamentamos, mas nada foi encontrado para sua pesquisa, tente novamente com outras palavras.").should('be.visible');
   });
 });
